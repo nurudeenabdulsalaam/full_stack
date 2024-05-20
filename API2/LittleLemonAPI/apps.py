@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LittlelemmonapiConfig(AppConfig):
+class LittlelemonapiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'LittleLemmonAPI'
+    name = 'LittleLemonAPI'
