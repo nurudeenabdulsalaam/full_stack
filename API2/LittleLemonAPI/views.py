@@ -12,3 +12,10 @@ def index(request):
 @api_view()
 def lemons(request):
     return Response("list of lemons", status=status.HTTP_200_OK)
+
+
+class Orders():
+    @staticmethod
+    @api_view(['POST', 'GET'])
+    def listOrders(request):
+        return Response({'message': 'list of orders'}, 200)
